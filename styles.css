@@ -1,0 +1,27 @@
+body {
+background-image: url(https://w0.peakpx.com/wallpaper/896/587/HD-wallpaper-ramona-flowers-comic-comics-scott-scott-pilgrim-videgames.jpg);
+background-size: 100% 120%;
+font-family:sans-serif;
+color: white;
+box-boder: 
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 1em 0;
+  
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+  font-family:
+}
+  

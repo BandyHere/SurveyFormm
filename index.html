@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survery Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+<h1 id="title">Ramona Flowers's Survery Form</h1>
+    <p id="description">Please fill out this form with the required information<p>
+<form id="survey-form">
+<div class="form-group">
+<fieldset>
+   <label id="name-label" for="name">Enter Your Name: <input id="name" name="name" type="text" required placeholder="Name"/></label>
+</fieldset>
+</div ">
+<fieldset>
+   <label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" required placeholder="Email" /></label>
+</fieldset>
+<fieldset>
+  <label id="number-label" for="number">Input your age (optional): <input id="number" type="number" name="number" min="13" max="120" placeholder="18" /></label>
+</fieldset>
+<fieldset>
+ <label for="dropdown">What is your favorite color?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Pink</option>
+            <option value="2">Blue</option>
+            <option value="3">Green</option>
+           
+          </select>
+        </label>  
+</fieldset>
+<fieldset>
+<p>Would you date Ramona Flowers?</p>
+<label for="yes"><input id="yes" type="radio" name="choice" class="inline" value="yes" />Yes</label>
+<label for="no"><input id="no" type="radio" name="choice" class="inline" /value="no">No</label>
+<label for="not-sure"><input id="not-sure" type="radio" name="choice" class="inline" /value="not-sure">Not Sure</label>
+</fieldset>
+<fieldset>
+ <label for="referrer">Who do you like the least?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Roxy Richter</option>
+            <option value="2">Katayanagi Twins</option>
+            <option value="3">Matthew Patel</option>
+            <option value="4">Lucas Lee</option
+            <option value="5">Todd Ingram</option>
+            <option value="6">Gideon</option>
+          </select>
+        </label>  
+</fieldset>
+<fieldset>
+<legend>How would you describe Ramona Flowers?(Check all that apply)</legend>
+  <input id="guarded" type="checkbox" name="personality" value="guarded"> <label for="guarded"> Guarded</label>
+  <input id="sarcastic" type="checkbox" name="personality" value="sarcastic"> <label for="sarcastic">Sarcastic</label>
+  <input id="independent" type="checkbox" name="personality" value="independent"> <label for="independent">Independent</label>
+  <input id="sexy" type="checkbox" name="sexy" value="lazy"> <label for="sexy">Sexy</label>
+  <input id="american" type="checkbox" name="personality" value="american"> <label for="american">American</label>
+  <input id="powerful" type="checkbox" name="personality" value="powerful"> <label for="powerful">Powerful</label>
+  <input id="consistent" type="checkbox" name="personality" value="consistent"> <label for="consistent">Consistent</label>
+</fieldset>
+<fieldset>
+  <label for="letter">Any questions for Ramona(not required):
+          <textarea id="letter" name="letter" rows="3" cols="30" placeholder="How are you so goregeous?"></textarea>
+        </label>
+</fieldset>
+<input id="submit" type="submit" value="Submit" />
+  </form>
+  </body>
